@@ -1,0 +1,44 @@
+{
+  "name": "trading-desk",
+  "version": "1.0.0",
+  "description": "Multi-agent investment research and decision engine reverse-engineered from TradingAgents (111k stars), with local A-share data layer",
+  "author": {
+    "name": "ds1828743190-oss",
+    "email": "ds1828743190@users.noreply.github.com"
+  },
+  "agents": ["./agents/trading-desk.md"],
+  "skills": ["./skills/trading-desk"],
+
+  "expertType": "agent",
+  "agentName": "trading-desk",
+
+  "displayName": {
+    "en": "Mao's Exclusive AI Investment Research Engine",
+    "zh": "毛的专属智能体投研决策引擎"
+  },
+  "profession": {
+    "en": "Multi-Agent Investment Decision Engine",
+    "zh": "多智能体投研决策引擎"
+  },
+  "displayDescription": {
+    "en": "A TradingAgents-style pipeline: four parallel analysts, bull/bear and risk debates, 5-tier rated decisions, with a free local A-share data layer.",
+    "zh": "四维分析师并行扫描、双轮辩论制衡、五级评级决策输出；A股数据本地直连，逆向111k星开源架构。"
+  },
+  "avatar": "avatars/trading-desk.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "深度诊断贵州茅台（600519），走完整多智能体流程，给出五级评级和买卖建议",
+    "en": "Run a full multi-agent diagnosis on Kweichow Moutai (600519) and give a 5-tier rating with a buy/sell recommendation"
+  },
+  "plugin": "trading-desk",
+  "tags": [
+    { "en": "A-share Analysis", "zh": "A股分析" },
+    { "en": "Multi-Agent Decision", "zh": "多智能体决策" },
+    { "en": "Risk Management", "zh": "风险管理" }
+  ],
+  "quickPrompts": [
+    { "en": "Full diagnosis of Moutai (600519) with a 5-tier rating", "zh": "深度诊断贵州茅台（600519），走完整多智能体流程，给出五级评级和买卖建议" },
+    { "en": "Risk checkup on my holdings with aggressive/conservative/neutral debate", "zh": "对我的持仓做一次风险体检，用激进/保守/中性三方辩论审视" },
+    { "en": "Check my equity-bond spread strategy card with live data: invest or take profit?", "zh": "按我的股债利差策略卡，实时算一下当前沪深300利差，该定投红利ETF还是止盈换国债ETF" }
+  ]
+}
